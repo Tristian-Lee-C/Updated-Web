@@ -1,0 +1,217 @@
+html{
+    width: auto;
+    height: auto;
+}
+
+header{
+    width: auto;
+    max-width: 100px;
+    height: fit-content;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.header img {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    max-width: 35px;
+    max-height: auto;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header h1 {
+    width:300px;
+    height:auto;
+    position: relative;
+    right: 0px;
+    top: 10px;
+    font-size: 30px;
+    padding-top: 2px;
+    padding-left: 50px;
+}
+
+body{
+    background-color: white;
+    height: 100%;
+    width: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+#wrapper{
+    width: auto;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+nav{
+    position: absolute;
+    top:60px;
+    right: 1%;
+    width: auto;
+    height: auto;
+
+}
+
+.Home:hover{
+    color: black;
+    background-color: #e7465e;
+    text-decoration: none;
+}
+
+.Home{
+    color: #E21836;
+    text-decoration: none;
+    background-color: white;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    width: auto;
+    font-size: xx-large;
+}
+
+.Services:hover{
+    color: black;
+    background-color: #f7a44a;
+    text-decoration: none;
+}
+
+.Services{
+    color: #f68E1E;
+    background-color: white;
+    text-decoration: none;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    width: auto;
+    font-size: xx-large;
+}
+
+.Reports:hover{
+    color: black;
+    background-color: #3275b1;
+    text-decoration: none;
+}
+
+.Reports{
+    color: #00539E;
+    background-color: white;
+    text-decoration: none;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    width: auto;
+    font-size: xx-large;
+}
+
+.Account:hover{
+    color: black;
+    background-color: #02bf74;
+    text-decoration: none;
+}
+
+.Account{
+    color: #008751;
+    background-color: white;
+    text-decoration: none;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    width: auto;
+    font-size: xx-large;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 49px;
+    margin-left: auto;
+}
+
+.Notice{
+    background-color:   rgb(244, 244, 244);
+    color: Black;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0px;
+    margin: auto;
+    overflow: hidden;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dashbetween{
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.usertag{
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.roletag{
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.logOut{
+    font-size: 20px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: -2px;
+    right: 22px;
+    float: right;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+}
+
+.logOut input[type=submit]{
+    font-size: 20px;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+}
+
+.logOut:hover{
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+}

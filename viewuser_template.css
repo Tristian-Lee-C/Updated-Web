@@ -1,0 +1,166 @@
+
+/* Desktops and laptops ---------- */
+/*@media screen and (min-width: 875px){*/
+
+.dashboard{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 130px;
+    width: auto;
+    margin:auto;
+}
+
+hr{
+    width: 100%;
+    opacity: 25%;
+}
+
+.volunteerText{
+    font-size: 30px;
+    width: auto;
+    margin:auto;
+    padding: 10px;
+}
+
+.volunteerInfo{
+    font-size: 20px;
+    width: auto;
+    margin:auto;
+    padding: 10px;
+}
+
+.volunteerPersonal{
+    display: flex;
+    justify-content: center;
+}
+
+.RecordsSect{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hourText{
+    margin-left: 60px;
+}
+
+.visitText{
+    margin-right: 60px;
+}
+
+.borderStyleRecords{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.Scroll{
+    overflow: scroll;
+    height: fit-content;
+    min-height: 70px;
+    max-height: 200px;
+}
+
+.service_list{
+    border-width: 2px;
+    border: solid;
+    border-color: rgb(216, 220, 255);
+    width: fit-content;
+    height: 25px;
+}
+thead{
+    z-index: 1;
+    position: sticky;
+    top: -2px;
+    border-width: 2px;
+    border: unset;
+    border-color: white;
+}
+
+thead th{
+    z-index: 1;
+    top: -2px;
+    position: sticky;
+    width: auto;
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 17px;
+    border: unset;
+    border:none;
+}
+
+tr{
+    background-color: rgb(255, 255, 255);
+}
+thead th{
+    z-index: 1;
+    top: -2px;
+    position: sticky;
+    background-color: rgb(216, 220, 255);
+}
+
+tbody{
+    background-color: rgb(233, 233, 233);
+}
+
+td{
+    margin: 5px;
+    width: auto;
+    padding: 5px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 17px;
+}
+
+.odd{
+    background-color: white;   
+}
+
+.campusText{
+    position: relative;
+    bottom: 90px;
+}
+
+.columnOne {
+    padding-right: 100px;
+}
+
+.columnTwo {
+    padding-left: 100px;
+}
+
+.firstName input[type=text], .lastName input[type=text], .emailAddress input[type=text], .phoneNumber input[type=text], .volunteerType select, .campus select, .exitReason select, .paragraphZone, input[type='tel'], input[type='date'], input[type="text"] {
+    font-size: 18px;
+    background-color: Transparent;
+    border: solid;
+    border-color: rgb(188, 188, 188);
+    border-radius: 2px;
+    border-width: 1px;
+    cursor:pointer;
+    overflow: hidden;     
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(241, 243, 255);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(216, 220, 255);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(164, 174, 255);
+  }
+
+/*}*/

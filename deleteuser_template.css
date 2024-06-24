@@ -1,0 +1,195 @@
+
+.dashboard{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    margin:auto;
+}
+
+
+.dashboardText{
+    margin-top: 20px; /* Adjusted for readability */
+}
+
+.deleteUserText{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 2em; /* Adjusted for readability */
+}
+
+hr{
+    opacity: 0.25; /* Adjusted to a value between 0 and 1 */
+}
+
+.volunteerInformation{
+    padding: 10px;
+    font-size: 1.5em; /* Adjusted for readability */
+}
+
+#deleteUserForm{
+    font-size: 1.2em; /* Adjusted for readability */
+    background-color: white;
+    border: 1px solid #bbb; /* Simplified border styling */
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+label{
+    margin: 20px; /* Adds space below the element */
+    padding: 20px; /* Adds space inside the element */
+    margin-left: auto;
+}
+
+.firstName{
+    position: relative;
+}
+
+.lastName{
+    position: relative;
+}
+
+.emailAddress{
+    position: relative;
+}
+
+.phoneNumber{
+    position: relative;
+}
+
+.volunteerType{
+    position: relative;
+}
+
+.campus{
+    position: relative;
+}
+
+.campusText{
+    position: relative;
+    bottom: 90px;
+}
+
+.campusType{
+    position: relative;
+}
+
+.deleteZone{
+    padding-top: 110px;
+}
+
+.deleteUserTextZone{
+    padding: 15px;
+    font-size: x-large;
+}
+
+.exitReason{
+    position: relative;
+    padding-left: 80px;
+    margin-left: 0px;
+}
+
+.exitComment{
+    position: relative;
+    padding-right: 80px;
+    margin-left: 0px;
+}
+
+.formSpace{
+    display: flex;
+    justify-content: center;
+}
+
+.formSpaceSecond{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add align-items to center vertically */
+}
+
+.columnOne {
+    padding-right: 100px;
+}
+
+.columnTwo {
+    padding-left: 100px;
+}
+
+.firstName input[type=text], .lastName input[type=text], .emailAddress input[type=text], .phoneNumber input[type=text], .volunteerType select, .campus select, .exitReason select, .formSpaceSecond, input[type='tel'], input[type='date'], input[type="text"] {
+    font-size: 18px;
+    background-color: Transparent;
+    border: solid;
+    border-color: rgb(188, 188, 188);
+    border-radius: 2px;
+    border-width: 1px;
+    cursor:pointer;
+    overflow: hidden;     
+}
+
+.deleteButton{
+    position: relative;
+    float: inline-end;
+    margin-right: 10px;
+    margin-top: -10px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 11px;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.deleteButton:hover{
+    background-color: lightgray;
+    color: rgb(0, 0, 0);;
+    width: auto;
+    height: auto;
+}
+
+
+.cancelButton{
+    position: relative;
+    float:inline-end;
+    margin-top: -10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 11.5px;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cancelButton:hover{
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
+.deleteUserTextZone{
+    padding: 10px;
+}
+
+.exitText{
+    position: relative;
+
+}

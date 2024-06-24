@@ -1,0 +1,180 @@
+
+.dashboard{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    margin:auto;
+}
+
+
+.dashboardText{
+    margin-top: 20px; /* Adjusted for readability */
+}
+
+.addServiceText{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 2em; /* Adjusted for readability */
+}
+
+hr{
+    opacity: 0.25; /* Adjusted to a value between 0 and 1 */
+}
+
+.volunteerInformation{
+    padding: 10px;
+    font-size: 1.5em; /* Adjusted for readability */
+}
+
+#addServiceForm{
+    font-size: 1.2em; /* Adjusted for readability */
+    background-color: white;
+    border: 1px solid #bbb; /* Simplified border styling */
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+
+.formHolder{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+label{
+    padding: 10px;
+    width: fit-content;
+}
+
+.service_list{
+    width: 100%;
+    font-size: large;
+    border-width: 0px;
+    border: unset;
+    border-color: white;
+    position: relative;
+    top: 30px;
+}
+
+thead{
+    border-width: 2px;
+    border-radius: 10px;
+    border: unset;
+    border-color: white;
+}
+
+thead th{
+    width: auto;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding:10px;
+    border: unset;
+    border:none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+tr{
+    background-color: rgb(255, 255, 255);
+}
+thead th{
+    background-color: rgb(216, 220, 255);
+}
+
+tbody{
+    background-color: rgb(233, 233, 233);
+}
+
+td{
+    margin: 5px;
+    width: auto;
+    padding: 5px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.odd{
+    background-color: white;   
+}
+
+.studentNames{
+    resize: none;
+}
+
+.comment{
+    resize: none;
+}
+
+.serviceNumber input[type=number], .schoolList select, .serviceCodes select, .serviceTiers select, .studentNames, .comment, .date{
+    font-size: 12px;
+    background-color: Transparent;
+    border: solid;
+    border-color: rgb(188, 188, 188);
+    border-radius: 2px;
+    border-width: 1px;
+    cursor:pointer;
+    overflow: hidden;     
+}
+
+.addServiceButton{
+    position: relative;
+    float: inline-end;
+    margin-right: 10px;
+    margin-top: -10px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 11px;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.addServiceButton:hover{
+    background-color: lightgray;
+    color: rgb(0, 0, 0);;
+    width: auto;
+    height: auto;
+}
+
+
+.cancelButton{
+    position: relative;
+    float:inline-end;
+    margin-top: -10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 11.5px;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.cancelButton:hover{
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}

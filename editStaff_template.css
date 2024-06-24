@@ -1,0 +1,208 @@
+
+.dashboard {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    margin:auto;
+}
+
+/* Dashboard Text */
+.dashboardText {
+    margin-top: 20px; /* Adjusted for readability */
+}
+
+/* Add User Text */
+.editStaffText {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 2em; /* Adjusted for readability */
+}
+
+/* Horizontal Rule */
+hr {
+    opacity: 0.25; /* Adjusted to a value between 0 and 1 */
+}
+
+/* Volunteer Information */
+.staffInformation {
+    padding: 10px;
+    font-size: 1.5em; /* Adjusted for readability */
+}
+
+/* Add User Form */
+#addStaffForm {
+    font-size: 1.2em; /* Adjusted for readability */
+    background-color: white;
+    border: 1px solid #bbb; /* Simplified border styling */
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+/* Form Label */
+label{
+    margin: 20px; /* Adds space below the element */
+    padding: 20px; /* Adds space inside the element */
+    margin-left: auto;
+}
+
+.formSpace{
+    display: flex;
+    justify-content: center;
+}
+
+.columnOne {
+    padding-right: 100px;
+}
+
+.columnTwo {
+    padding-left: 100px;
+}
+
+.campusText {
+    position: relative;
+    bottom: 90px;
+}
+
+
+/* Form Inputs */
+input[type="text"],
+select, input[type='tel'], input[type='date'] {
+    font-size: 1em; /* Adjusted for readability */
+    padding: 5px;
+    border: 1px solid #bbb; /* Simplified border styling */
+    border-radius: 3px;
+}
+
+.editButton{
+    position: relative;
+    float: inline-end;
+    margin-right: 10px;
+    margin-top: -10px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 11px;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.editButton:hover{
+    background-color: lightgray;
+    color: rgb(0, 0, 0);;
+    width: auto;
+    height: auto;
+}
+
+
+.cancelButton{
+    position: relative;
+    float:inline-end;
+    margin-top: -10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 11.5px;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cancelButton:hover{
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
+.message{
+    color: red;
+    position: relative;
+    width: 300px;
+    z-index: 2;
+}
+
+.warningBox{
+    background-color: rgb(218, 147, 147);
+    text-align: center;
+    padding: 5px;
+    border-style: outset;
+    border-color: red;
+    width: 500px;
+    border-width: 2px;
+    border-radius: 5px; 
+}
+
+.warningPosition{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.deleteZone{
+    
+    width: auto;
+    height: fit-content;
+}
+
+.deleteUserTextZone{
+    padding: 15px;
+    font-size: x-large;
+}
+
+.deleteFormRole{
+    text-align: center;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.deleteGut{
+
+    width: auto;
+}
+
+.exitText{
+    position: relative;
+    Right: 150px;
+    bottom: 5px;
+}
+
+.paragraphZone{
+    position: relative;
+    left: 70px;
+}
+
+textarea{
+    position: relative;
+    resize: vertical;
+
+}
+
+.columnThree{
+    padding-right: 100px;
+}
+
+.columnFour{
+    padding-left: 100px;
+}

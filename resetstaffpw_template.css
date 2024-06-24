@@ -1,0 +1,177 @@
+.dashboard{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    margin:auto;
+    
+}
+
+.WebGut{
+    display: flex;
+    justify-content: center;
+    width:auto;
+    margin-top: 100px;
+}
+
+hr{
+    width: 100%;
+    opacity: 25%;
+}
+
+.subNav{
+    float: inline-start;
+    margin-top: 30px;
+    width: fit-content;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.Settings{
+    padding: 10px;
+}
+
+.AdminTools{
+    padding: 10px;
+}
+
+.SubNavTitle{
+    font-size: x-large;
+}
+
+.SubTwoNavTitle{
+    font-size: large;
+    margin: 10px;
+    margin-bottom: 10px;
+    opacity: 50%;
+}
+
+.linkPage{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #00539E;
+    text-decoration: none;
+}
+
+.resetPasswordSection{
+    display: flex;
+    justify-content: center;
+}
+
+.resetPasswordSect{
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+}
+
+legend {
+    font-size: large;
+};
+
+
+fieldset.fieldSetTextBox{
+    display: block;
+    border: 5px solid;
+    padding: 20px;
+}
+
+.firstName input[type=text],
+.lastName input[type=text],
+.Email input[type=text],
+.phone input[type=text],
+.dobV input[type=text],
+.Address input[type=text],
+input[type='tel'], input[type='date']
+,input[type="text"] {
+    font-size: 18px;
+    background-color: Transparent;
+    border: solid;
+    border-color: rgb(188, 188, 188);
+    border-radius: 2px;
+    border-width: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.confirmButton {
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 11px;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.confirmButton:hover {
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+}
+
+.message{
+    color: red;
+    position: relative;
+    padding-bottom: 10px;
+    width: auto;
+    margin-right: auto;
+}
+
+.messageComplete{
+    color: rgb(77, 101, 40);
+    position: relative;
+    padding-bottom: 10px;
+    width: auto;
+    margin-right: auto;
+}
+
+.warningBox{
+    background-color: rgb(218, 147, 147);
+    text-align: center;
+    width: auto;
+    border-style: outset;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+}
+
+.completeBox{
+    background-color: rgb(129, 231, 129);
+    text-align: center;
+    width: auto;
+    border-style: outset;
+    border-color: green;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+}

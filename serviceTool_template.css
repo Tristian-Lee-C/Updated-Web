@@ -1,0 +1,310 @@
+.dashboard{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    margin:auto;
+    
+}
+
+.WebGut{
+    display: flex;
+    justify-content: center;
+    width:auto;
+    min-height: 500px;
+    height: auto;
+    margin-top: 80px;
+}
+
+hr{
+    width: 100%;
+    opacity: 25%;
+}
+
+.subNav{
+    float: inline-start;
+    margin-top: 30px;
+    width: fit-content;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.Settings{
+    padding: 10px;
+}
+
+.AdminTools{
+    padding: 10px;
+}
+
+.SubNavTitle{
+    font-size: x-large;
+}
+
+.SubTwoNavTitle{
+    font-size: large;
+    margin: 10px;
+    margin-bottom: 10px;
+    opacity: 50%;
+}
+
+.linkPage{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #00539E;
+    text-decoration: none;
+}
+
+.CreateSCodeSect{
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+    height: 300px;
+}
+
+.Scroll{
+    overflow: scroll;
+    height: fit-content;
+    margin-top: 40px;
+    min-height: 70px;
+    max-height: 500px;
+    overflow-x: hidden;
+}
+
+.SCode_list{
+    border-width: 2px;
+    border: solid;
+    border-color: rgb(216, 220, 255);
+    width: 900px;
+    height: 40px;
+}
+thead{
+    z-index: 1;
+    top: -2px;
+    position: sticky;
+    border-width: 2px;
+    border: unset;
+    border-color: white;
+}
+
+thead th{
+    z-index: 1;
+    top: -2px;
+    position: sticky;
+    width: auto;
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 17px;
+    border: unset;
+    border:none;
+}
+
+tr{
+    background-color: rgb(255, 255, 255);
+}
+thead th{
+    z-index: 1;
+    top: -2px;
+    position: sticky;
+    background-color: rgb(216, 220, 255);
+}
+
+tbody{
+    background-color: rgb(233, 233, 233);
+}
+
+td{
+    margin: 5px;
+    width: auto;
+    padding: 5px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 17px;
+}
+
+.odd{
+    background-color: white;   
+}
+
+.switch {
+    position: relative;
+    bottom: 4px;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(127, 140, 255);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(208, 213, 255);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.editSCodeButton{
+    position: relative;
+    top: 7px;
+    float: inline-start;
+    width: 37px;
+    height: auto;
+    text-align: center;
+    padding: 3px;
+}
+
+.editSCodeButton input[type=submit]{
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    padding: 3px;
+    height: auto;
+    width: 37px;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.editSCodeButton input[type=submit]:hover{
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    width: 37px;
+    font-weight: bold;
+    height: auto;
+}
+
+.deleteSCodeButton{
+    position: relative;
+    top: 7px;
+    float: inline-start;
+    width: 50px;
+    height: auto;
+    text-align: center;
+    padding: 3px;
+}
+
+.deleteSCodeButton input[type=submit]{
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    padding: 3px;
+    height: auto;
+    width: 50px;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.deleteSCodeButton input[type=submit]:hover{
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    width: 50px;
+    font-weight: bold;
+    height: auto;
+}
+
+.addSCodeButton{
+    position: relative;
+    left: 900px;
+    width: 50px;
+    height: auto;
+    text-align: center;
+    padding: 3px;
+}
+
+.addSCodeButton input[type=submit]{
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    padding: 3px;
+    height: auto;
+    width: 50px;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.addSCodeButton input[type=submit]:hover{
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    width: 50px;
+    font-weight: bold;
+    height: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(241, 243, 255);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(216, 220, 255);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(164, 174, 255);
+  }

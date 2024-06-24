@@ -1,0 +1,203 @@
+
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 875px){
+
+.dashboard{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    margin:auto;
+}
+
+hr{
+    width: 100%;
+    opacity: 25%;
+}
+
+.volunteerText{
+    font-size: 30px;
+    width: auto;
+    margin:auto;
+    padding: 10px;
+}
+
+.volunteer_list{
+    width: 100%;
+    font-size: large;
+    border-width: 0px;
+    border: unset;
+    border-color: white;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    top: 30px;
+}
+
+thead{
+    border-width: 2px;
+    border-radius: 10px;
+    border: unset;
+    border-color: white;
+}
+
+thead th{
+    width: auto;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding:10px;
+}
+
+tr{
+    width: max-content;
+    color: Black;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    padding-top:5px;
+}
+
+tr{
+    background-color: rgb(255, 255, 255);
+}
+thead th{
+    background-color: rgb(216, 220, 255);
+}
+
+td{
+    margin: 5px;
+    width: auto;
+    padding: 5px;
+}
+
+
+.addVolunteerButton{
+    position: relative;
+    right: 18px;
+    float: right;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    top: 10px;
+}
+
+.addVolunteerButton input[type=submit]{
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 10px;
+    width: 56px;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.addVolunteerButton input[type=submit]:hover{
+    background-color: lightgray;
+    color: rgb(0, 0, 0);;
+    font-weight: bold;
+    width: 56px;
+    height: auto;
+}
+
+.editVolunteerButton{
+    position: relative;
+    float: inline-start;
+    width: 37px;
+    height: auto;
+    text-align: center;
+    padding: 3px;
+}
+
+.editVolunteerButton input[type=submit]{
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    padding: 3px;
+    height: auto;
+    width: 37px;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.editVolunteerButton input[type=submit]:hover{
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    width: 37px;
+    font-weight: bold;
+    height: auto;
+}
+
+.deleteVolunteerButton{
+    position: relative;
+    float:inline-start;
+    height: auto;
+    width: 55px;
+    text-align: center;
+    padding: 3px;
+}
+
+.deleteVolunteerButton input[type=submit]{
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    padding: 3px;
+    height: auto;
+    border: solid;
+    width: 55px;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.deleteVolunteerButton input[type=submit]:hover{
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 55px;
+    height: auto;
+}
+
+.viewVolunteerButton{
+    position: relative;
+    float:inline-start;
+    height: auto;
+    width: 45px;
+    text-align: center;
+    padding: 3px;
+}
+
+.viewVolunteerButton input[type=submit]{
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    padding: 3px;
+    width: 45px;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    height: auto;
+    text-align: center;
+}
+
+.viewVolunteerButton input[type=submit]:hover{
+    background-color: rgb(230, 230, 230);
+    width: 45px;
+    color: rgb(0, 0, 0);
+    height: auto;
+    font-weight: bold;
+}
+}

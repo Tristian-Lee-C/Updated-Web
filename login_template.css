@@ -1,0 +1,108 @@
+
+
+body{
+    background-color: white;
+    height: fit-content;
+    width: auto;
+}
+
+.welcome{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+}
+
+.intro{
+    background-color: lightgray;
+    width: 500px;
+    border-style: outset;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    margin:auto;
+}
+
+#login_form{
+    background-color: white;
+    padding: 5%;
+}
+
+.login{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    font-size: large;
+}
+
+.email{
+    padding-right: 20px;
+    padding-left: 40px;
+
+}
+.password{
+    padding-right: 23px;
+    padding-left: 40px;
+}
+
+.submitButton{
+    padding: 10px;
+}
+
+.loginButton{
+    position: relative;
+    float: inline-end;
+    margin-right: 180px;
+    margin-top: -5px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    padding: 8px;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 89, 128);
+    border-width: 1px;
+    text-align: center;
+}
+
+.loginButton:hover{
+    background-color: lightgray;
+    color: rgb(0, 0, 0);;
+    width: auto;
+    height: auto;
+}
+
+.copyright{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.message{
+    color: red;
+    position: relative;
+    padding-bottom: 10px;
+    width: auto;
+    margin-right: auto;
+}
+
+.warningBox{
+    background-color: rgb(218, 147, 147);
+    text-align: center;
+    width: auto;
+    border-style: outset;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+}
